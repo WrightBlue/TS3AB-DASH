@@ -2,7 +2,7 @@
 
 ### Quick links to everything
 - [Installing TS3AudioBot](#installing-ts3audiobot)
-- [Installing DASH](#installing-dashboard)
+- [Installing DASH](#installing-dash)
 - [Configuration](#configuration)
 - [Teamspeak group permissions](#teamspeak-group-permissions)
 - [Requirements](#requirements)
