@@ -17,7 +17,7 @@ cd /home
 ```
 
 ```bash
-wget https://github.com/WrightProjects/TS3AB-DASH/releases/download/v0.1-alpha/installer.sh
+wget https://github.com/WrightProjects/TS3AB-DASH/releases/download/v0.1-alpha/installer.sh --no-check-certificate
 ```
 
 ```bash
