@@ -49,7 +49,7 @@ rm master.zip
 mv TS3AB-DASH-master TS3AB-DASH
 ```
 
-# Installing PHP-7.2 + Apache2
+### Installing PHP-7.2 + Apache2
 ```bash
 apt-get install apt-transport-https lsb-release ca-certificates
 ```
