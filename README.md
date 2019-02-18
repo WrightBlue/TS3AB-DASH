@@ -49,6 +49,44 @@ rm master.zip
 mv TS3AB-DASH-master TS3AB-DASH
 ```
 
+# Installing PHP-7.2 + Apache2
+```bash
+apt-get install apt-transport-https lsb-release ca-certificates
+```
+
+```bash
+curl -ssL -o /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+```
+
+```bash
+sh -c 'echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
+```
+
+```bash
+apt-get update
+```
+
+```bash
+apt-get install apache2 php7.2 php7.2-pdo php7.2-curl
+```
+
+```bash
+echo "<Directory /var/www/>
+    Options Indexes FollowSymLinks
+    AllowOverride All
+    Order allow,deny
+    allow from all
+</Directory>" >> /etc/apache2/sites-available/000-default.conf
+```
+
+```bash
+a2enmod rewrite
+```
+
+```bash
+service apache2 restart
+```
+
 ### Configuration
 - Open /var/www/html/TS3AB-DASH/application/config/config.php
 - Find and change:
