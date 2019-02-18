@@ -32,7 +32,7 @@
 			}
 			$TS3AudioBot = new TS3AudioBot();
 			$instance    = $TS3AudioBot->getInstance();
-			if ($instance['Id'] == null) {
+			if (!is_numeric($instance['Id'])) {
 				return $this->output->set_output(printJson(false, $this->lang->line('main')[1]));
 			}
 			$id = generateId();
