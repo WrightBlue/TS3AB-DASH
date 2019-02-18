@@ -3,6 +3,7 @@
 ### Quick links to everything
 - [Installing TS3AudioBot](#installing-ts3audiobot)
 - [Installing DASH](#installing-dash)
+- [Installing PHP-7.2 + Apache2](#installing-php-72--apache2)
 - [Configuration](#configuration)
 - [Teamspeak group permissions](#teamspeak-group-permissions)
 - [Requirements](#requirements)
